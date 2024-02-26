@@ -55,13 +55,13 @@ a :hover{
 
 .playgifonhover {
     height: 300px;
-    background-image:"uiooju copy.gif";
+    background-image:url('uiooju copy.gif');
     background-size: cover; 
     background-position: center; 
 }
 
 .playgifonhover:hover {
-    background-image:"uiooju.gif";
+    background-image:url('uiooju.gif');
 }
 
 .maininfo{
