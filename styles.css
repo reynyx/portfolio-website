@@ -1,0 +1,218 @@
+
+
+*{
+    font-family:playfair display;
+}
+
+body{background-color: black;}
+
+body{
+    margin:0;
+    
+}
+
+
+h1 {
+    font-size: 4rem; 
+    text-align: center;
+    margin-top: 1rem; 
+}
+
+.navigationbar {
+    display: grid;
+    height: 100px;
+    width: 100%;
+    align-content: center;
+    grid-template-columns: repeat(6, auto); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 10px;
+    background-color: black;
+}
+
+
+.navigationbar > div {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color:rgb(32, 60, 130);
+    padding:10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease; 
+}
+
+.navigationbar>div:hover {
+    color: lightgray; 
+}
+
+a{
+    color: white;
+}
+
+a :hover{
+    color:blue ;
+}
+
+.playgifonhover {
+    height: 300px;
+    background-image: url('/Users/shreyarajeev/Desktop/uiooju copy.gif');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.playgifonhover:hover {
+    background-image: url('/Users/shreyarajeev/Desktop/uiooju.gif');
+}
+
+.maininfo{
+    color: white;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+#photo1{
+    display: block;
+    bottom:0;
+    margin-top:10px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+hr{
+    color:grey;
+    height: 5px;
+    background-color: grey;
+   
+    width:100%;
+
+}
+
+.about-section{
+    background-color:grey;
+    color: white;
+    padding-bottom: 170px;
+    padding-top: 40px;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    border-radius: 25px;
+
+}
+
+#photo2{
+    
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+h1{
+    color:rgb(120, 153, 239) ;
+}
+
+.project-info{
+
+    
+    margin-top: 20px;
+    padding-left: 50px;
+    background-color: rgb(55, 53, 53);
+    color: white;
+}
+
+
+
+.contacthead{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#contact-myinfo{
+    padding-left: auto;
+    padding-right: auto;
+    color: white;
+    text-align: center;
+}
+
+.contact-enter h1{
+    text-align: center;
+    color:blue;
+    font-size: 50px;
+}
+
+.contact-enter{
+    text-align: center;
+   margin: auto;
+    background-color: grey;
+}
+
+header{
+    color: white;
+}
+
+.sec1 h2{
+    color: black;
+
+}
+
+.sec1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    background-color: grey;
+    padding:30px;
+    border-radius: 15px;
+
+
+}
+
+.sec1 h3{
+    color: blue;
+}
+
+
+
+
+
+.gallery {
+    margin-top: 200px;
+    display: grid;
+    height: 100px;
+    width: 100%;
+    align-content: center;
+    grid-template-columns: repeat(6, auto); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 10px;
+    background-color: black;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+b{
+   color:rgb(32, 60, 130);
+   font-size: 2;
+}
